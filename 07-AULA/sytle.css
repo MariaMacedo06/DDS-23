@@ -1,0 +1,31 @@
+/* Seliciona todos os elementos do site */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Seleciona por tag, nesse caso a tag body */
+body{
+    background-color: azure;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+}
+/* Seleciona o id */
+#topo{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+/* Seleciona a class */
+.descricao{
+    font-style: italic;
+}
+/* Estiliza os elementos da class bloco */
+.bloco{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
