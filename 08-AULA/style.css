@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+h1,h2{
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+     font-style: normal;
+}
+
+/* Estilizei por tag */
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: black;
+}
+/* Estilizei dois elementos ao mesmo tempo */
+h1, h2 {
+    color: #1f3c88;
+}
+/* Seletor de classe */
+.bloco {
+    background-color: white;
+    border: 2px solid gray;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+/* Pseudo classes */
+a {
+    color: orangered;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:active {
+    color: green;
+}
+button:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+button:active{
+    transform: scaleX(1.5);
+    transform: scaley(1.7);
+}
+/* Estiliza o input quando estou mexendo em um específico */
+input:focus {
+    outline: none;
+    border: 2px solid yellow;
+    background-color: azure;
+}
+/* Estiliza o input quando é obrigatório */
+input:required {
+    border: 2px solid red;
+}
+/* Estiliza o input quando é válido */
+input:valid {
+    background-color: #ecfdf5;
+}
+/* Estiliza o input quando é inválido */
+input:invalid {
+    background-color: #fef2f2;
+}
+/* Estiliza o input quando está marcado */
+input:checked {
+    accent-color: green;
+}
+/* Estiliza o input quando está desmarcado */
+input:disabled {
+    background-color: #e5e7eb;
+    color: #6b7280;
+}
+/* Seleciona o primeiro filho de uma lista */
+.lista-exemplo li:first-child {
+    font-weight: bold;
+    color: green;
+}
+/* Seleciona o último filho de uma lista */
+.lista-exemplo li:last-child {
+    color: red;
+}
+.lista-exemplo li:nth-child(2) {
+    background-color: #fef3c7;
+}
+/* Seleciona o elemento quando está vazio */
+.caixa-vazia:empty {
+    width: 200px;
+    height: 60px;
+    background-color: #fef2f2;
+    border: red;
+}
+/* Pseudo elementos */
+/* Insere conteúdo antes do elemento */
+h2::before {
+    content: " ⭐ ";
+    color: #fef3c7;
+}
+/* Insere conteúdo depois do elemento */
+h2::after {
+    content: " 👌 ";
+    color: green;
+}
+/* Estiliza o texto dentro dos inputs */
+input::placeholder {
+    color: #6b7280;
+    font-style: italic;
+}
+/* Estiliza o texto  */
+::selection{
+    background-color: yellow;
+    color: black;
+    font-size: bold;
+}
+
+.lista-exemplo li::marker {
+    color: red;
+    font-size: 20px;
+}
