@@ -1,0 +1,103 @@
+/* Seliciona todos os elementos do site */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Seleciona por tag, nesse caso a tag body */
+body{
+    background-color: azure;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+}
+/* Seleciona o id */
+#topo{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+/* Seleciona a class */
+.descricao{
+    font-style: italic;
+}
+/* Estiliza os elementos da class bloco */
+.bloco{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+/* Estiliza os elementos com a class destaque */
+.destaque{
+    background-color: gold;
+}
+/* Estiliza os elementos com a class texto-destaque */
+.texto-destaque{
+    color: darkred;
+    font-weight: bold;
+}
+/* Estiliza o elemento com o id caixa-unica */
+#caixa-unica{
+    background-color: #ede9fe;
+    padding: 10px;
+    border: 2px solid purple;
+}
+/* Seleciona todos os elementos p que estão dentro de elementos div */
+div p{
+    color: blue;
+}
+/* Seleciona todos os elementos p que são filhos diretos de elementos div */
+.pai-direto > p{
+    color: green;
+    padding: 5px;
+}
+/* Seleciona o p que vem logo após o h3, desde que seja irmão */
+h3 + p{
+    color: red;
+    font-weight: bold;
+}
+/* Seleciona todos os p que vem logo após um h4, desde que sejam irmãos */
+h4 ~ p{
+    background-color: blueviolet;
+    color: yellow;
+}
+/* SELECIONA POR ATRIBUTO ESPECÍFICO */
+/* Seleciona todos os elementos input do tipo text */
+input[type="text"]{
+    padding: 8px;
+    border: 2px solid gray;
+    margin-right: 10px;
+}
+a[href*="google"]{
+    color: green;
+    font-weight: 50px;
+}
+h5, h6{
+    color: rgb(168, 20, 168);
+    margin: 5px 0px;
+    font-size: 50px;
+}
+/* Seleciona o elemento que obrigatoriamente tenha duas classes */
+.botao.ativo{
+    color: rgb(247, 17, 17);
+    padding: 40px;
+}
+/* Seleciona apenas o p que tenha a class aviso */
+p.aviso{
+    color: rgb(238, 167, 14);
+}
+div#painel{
+    background-color: lightgray;
+    padding: 10px;
+}
+a{
+    color: violet;
+}
+/* Seleciona filho dentro de filho */
+#menu ul li a{
+    color: violet;
+    text-decoration: none;
+    list-style-type: none;
+}
