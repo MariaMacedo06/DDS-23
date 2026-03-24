@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* RESET */
+* {
+    margin: 0;
+    padding: 0px;
+}
+/* Formação base */
+body{
+    font-family: "Inter", sans-serif;
+    background-color: azure;
+    color: black;
+    line-height: 1.6;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Topo */
+.topo {
+    background-color: #0f172a;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.navegaçao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 14px;
+}
+
+.menu a{
+    color: white;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    background-color: #1e293b;
+}
+
+/* SEÇÃO ICON - GRID */
+.idol{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 35px;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.idol-texto h1{
+    font-size: 3em;
+    line-height: 1.2;
+    color: #1e293b;
+    margin: 20px 0;
+}
+
+.idol-texto p{
+    font-size: 1.2em;
+    color: #4b5563;
+    margin-bottom: 25px;
+}
+
+/* ETIQUETAS - INLINE */
+.etiqueta-linha{
+    display: inline;
+    background-color: #dbeafe;
+    color: #1d4ed8;
+    padding: 5px 10px;
+    border-radius: 10%;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.destaque-inline{
+    display: inline;
+    color: red;
+    font-weight: 700;
+}
