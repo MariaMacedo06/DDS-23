@@ -105,3 +105,54 @@ a{
     color: red;
     font-weight: 700;
 }
+
+/* BOTÕES - INLINE-BLOCK */
+.botao{
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 10%;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.botao-primario{
+    background-color: red;
+    color: white;
+}
+
+.botao-secundario{
+    background-color: #e5e7eb;
+    color: black;
+}
+
+/* IMAGEM PRINCIPAL */
+.idol-imagem img{
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 15px 40px black;
+}
+/* FOOTER - GRID */
+.rodape{
+    margin-top: 50px;
+    background-color: #0f172a;
+    color: white;
+    padding: 45px 0;
+}
+
+.rodape-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.rodape-grid h3{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.rodape-grid p{
+    color: #d1d5db;
+    margin-bottom: 5px;
+}
