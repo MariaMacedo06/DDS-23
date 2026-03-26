@@ -156,13 +156,19 @@ a{
     color: #d1d5db;
     margin-bottom: 5px;
 }
+/* SECAO */
+.secao{
+    padding: 30px 0 50px 0;
+}
 
 .titulo-secao{
-
+    margin-bottom: 25px;
 }
 
 .tiulo-secao h2{
-
+    font-size: 2em;
+    color: #111827;
+    margin-bottom: 8px;
 }
 
 .titulo-secao p{
